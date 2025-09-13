@@ -10,11 +10,11 @@ export default function LoveGift() {
   const [showMessage, setShowMessage] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setShowHeart(true), 5000); // арай хурдан болгов
+    setTimeout(() => setShowHeart(true), 3000); // арай хурдан болгосон
   }, []);
 
   return (
-    <div className="h-screen w-screen bg-black flex items-center justify-center relative overflow-hidden px-4">
+    <div className="min-h-screen w-screen bg-black flex items-center justify-center relative px-4">
       {/* Цас */}
       <Snowfall snowflakeCount={50} />
 
@@ -36,16 +36,16 @@ export default function LoveGift() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          className="text-center text-white max-w-lg w-full overflow-y-auto p-4"
+          className="text-center text-white max-w-lg w-full min-h-screen overflow-y-auto p-4"
         >
           {/* Зураг */}
           <div className="mb-4 flex justify-center">
             <Image
               src="/IMG_7326.jpeg"
               alt="Our Memory"
-              width={350}
-              height={350}
-              className="rounded-xl shadow-lg w-48 h-48 sm:w-72 sm:h-72 object-cover"
+              width={400}
+              height={400}
+              className="rounded-xl shadow-lg w-full max-w-sm object-cover"
             />
           </div>
 
