@@ -78,11 +78,11 @@ export default function LoveGift() {
               🎶 Malcolm Todd – Chest pain
             </a>
             <a
-              href="https://www.youtube.com/watch?v=RgKAFK5djSk"
+              href="https://www.youtube.com/watch?v=n5i3QRvPA9Y&list=RDdTS_aNfpbIM&index=11"
               target="_blank"
               className="block underline text-blue-400 text-sm sm:text-base"
             >
-              🎶 Wiz Khalifa – See You Again
+              🎶 Paul Partohap – P.S. I LOVE YOU
             </a>
           </div>
         </motion.div>
